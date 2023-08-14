@@ -46,7 +46,7 @@ mongoose.connect(`mongodb://${mongooseUserName}:${mongoosePassword}@cluster0-sha
 
 app.get("/", (req, res)=>{
 
-    res.send("Hello worldc   c");
+    res.send("Hello world from UserInfoServer");
 
 
  
